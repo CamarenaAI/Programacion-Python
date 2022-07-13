@@ -1,3 +1,5 @@
+# Numbers
+
 # Integers
 # You can add (+), subtract (-), multiply (*), and divide (/) integers in Python
 print(2 + 3)
