@@ -1,4 +1,10 @@
-# 3.9 Dinner Guest
+"""
+3.9 Dinner Guest
+
+Working with one of the programs from Exercises 3-4 
+through 3-7 (page 46), use len() to print a message indicating the number 
+of people you are inviting to dinner
+"""
 
 # Exercise 3.4
 guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
@@ -12,7 +18,7 @@ print(message_2)
 print(message_3)
 print("Number of guests: ", len(guests))
 
-# 3.5
+# Exercise 3.5
 print("The Mr. Jeff Bezos can't come")
 guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 guests[2] = 'Steve Jobs'
@@ -26,7 +32,7 @@ print(message_2)
 print(message_3)
 print("Number of guests: ", len(guests))
 
-# 3.6
+# Exercise 3.6
 print("The Mr. Jeff Bezos can't come")
 guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 guests[2] = 'Steve Jobs'
@@ -51,7 +57,7 @@ print(message_5)
 print(message_6)
 print("Number of guests: ", len(guests))
 
-# 3.7
+# Exercise 3.7
 print("The Mr. Jeff Bezos can't come")
 guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 guests[2] = 'Steve Jobs'
