@@ -64,16 +64,11 @@ else:
 
 # Test whether an item is in a list
 fruits = ['pinapple', 'apple', 'grape', 'pear']
-for fruit in fruits:
-	if fruit == 'pinapple':
-		print("The fuit is on the list")
-	else:
-		print("This fuit is also on the list: " + fruit)
+'pinapple' in fruits:
+print(True)
 
 # Test whether an item is not in a list
 fruits = ['pinapple', 'apple', 'grape', 'pear']
-for fruit in fruits:
-	if fruit == 'guava':
-		print(fruit.title())
-	else:
-		print("The only fuits on the list are: " + fruit)
+fruit = 'guava'
+if fruit not in fruits:
+    print(fruit.title() + " is not in the list")
