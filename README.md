@@ -14,3 +14,16 @@
 |9|`Clases`||[Link]()|
 |10|`Archivos y excepciones`||[Link]()|
 |11|`Probar el Codigo`||[Link]()|
+
+#### Parte 2 - Proyectos
+| Proyecto |  Capitulo  | Nombre | Enlace |
+| :-------------: |:-------------:| :-------------:| :-------------: |
+|`Alien Invasion`|12|`Una nave que dispara balas`||[Link]()|
+|`Alien Invasion`|13|`¡Alienígenas!`||[Link]()|
+|`Alien Invasion`|14|`Puntucacion`||[Link]()|
+|`Visualización de datos`|15|`Generar datos`||[Link]()|
+|`Visualización de datos`|16|`Descargar datos`||[Link]()|
+|`Visualización de datos`|17|`Trabajar con API`||[Link]()|
+|`Aplicaciones Web`|18|`Primeros pasos con Django`||[Link]()|
+|`Aplicaciones Web`|19|`Cuentas de usuario`||[Link]()|
+|`Aplicaciones Web`|20|`Estilo y despliegue de una app`||[Link]()|
