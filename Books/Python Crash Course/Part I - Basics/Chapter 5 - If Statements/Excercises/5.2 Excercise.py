@@ -16,9 +16,6 @@ each of the following:
 """
 
 # Test for equality and inequality with strings
-from traceback import print_tb
-
-
 name = 'Alonso'
 if name == 'Alonso':
     print('Wellcome back, Alonso')
@@ -28,6 +25,8 @@ else:
 programming_language = 'java'
 if programming_language != 'python':
     print('Python is more easy to learn')
+else:
+    print('Good choose')
 
 # Test using the lower() function
 country = 'MeXiCo'
@@ -40,11 +39,41 @@ else:
 age = 18
 if age == 18:
     print(True)
-if age != 18:
-    print("")
+else:
+    print("You are not 18")
 
-# Test using the and keyword ant the or keyword
+if age != 18:
+    print("You are not 18")
+else:
+    print("You are 18")
+
+# Test using the and keyword and the or keyword
+name = 'Andres'
+age = 18
+if name == 'Gabriel' or age >= 18:
+    print("Please come in")
+else:
+    print("You can't pass")
+
+name = 'Andres'
+age = 21
+if name == 'Andres' and age >= 21:
+    print("Please come in Mr. Andres")
+else:
+    print("You can't pass")
 
 # Test whether an item is in a list
+fruits = ['pinapple', 'apple', 'grape', 'pear']
+for fruit in fruits:
+	if fruit == 'pinapple':
+		print("The fuit is on the list")
+	else:
+		print("This fuit is also on the list: " + fruit)
 
 # Test whether an item is not in a list
+fruits = ['pinapple', 'apple', 'grape', 'pear']
+for fruit in fruits:
+	if fruit == 'guava':
+		print(fruit.title())
+	else:
+		print("The only fuits on the list are: " + fruit)
