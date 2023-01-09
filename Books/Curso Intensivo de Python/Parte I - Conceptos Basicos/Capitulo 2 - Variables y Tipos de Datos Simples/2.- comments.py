@@ -1,5 +1,5 @@
-#Comments
+# Comentarios
 
-# How Do You Write Comments?
-# Say hello to everyone
-print("Hello Python people!")
+# ¿Como escribir un comentario?
+# Saluda a todos
+print("¡Hola gente Python!")
