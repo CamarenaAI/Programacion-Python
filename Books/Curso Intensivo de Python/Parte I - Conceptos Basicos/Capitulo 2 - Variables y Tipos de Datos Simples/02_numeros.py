@@ -7,7 +7,7 @@ print(3 - 2)
 print(2 * 3)
 print(3 / 2)
 
-# Python usa el simbolo de multiplicacion dos veces para representar exponentes(**)
+# Python usa el simbolo de multiplicacion dos veces para representar potencias(**)
 print(3 ** 2)
 print(3 ** 3)
 print(10 ** 6)
@@ -26,7 +26,7 @@ print(2 * 0.2 )
 print(0.2 + 0.1)
 print(3 * 0.1)
 
-# Evitar errores de tipo con la función str()
+# Evitando errores de tipo con la función str()
 edad = 23
-mensaje = "Feliz " + str(age) + "ro cumpleaños" # Puede hacer esto envolviendo la variable en la función str(), que le dice a Python que represente valores que no son cadenas como cadenas.
+mensaje = "Feliz " + str(edad) + "ro cumpleaños" # Puede hacer esto envolviendo la variable en la función str(), que le dice a Python que represente valores que no son cadenas como cadenas.
 print(mensaje)

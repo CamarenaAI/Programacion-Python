@@ -1,5 +1,5 @@
 """
-1.2 Errores tipograficos de Hola Mundo
+1.2 Errores tipograficos en Hola Mundo
 
 Abra el archivo hello_world.py que acaba de crear.
 Haga un error tipográfico en algún lugar de la línea y vuelva a ejecutar el programa.

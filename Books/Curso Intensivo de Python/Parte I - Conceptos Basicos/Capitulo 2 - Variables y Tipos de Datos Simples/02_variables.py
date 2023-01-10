@@ -1,6 +1,6 @@
 # Variables
 
-mensaje = "¡Hola mundo Python!"
+mensaje = "¡Hola mundo de Python!"
 print(mensaje)
 
 mensaje = "¡Hola mundo del Curso Intensivo de Python!"
