@@ -6,5 +6,5 @@ name in a variable called famous_person. Then compose your message
 and store it in a new variable called message. Print your message
 """
 famous_person = "Nikola Tesla "
-message = "I don't stole my idea... \n I care that they don't have any of their own."
+message = "I don't care that they stole my idea... \n I care that they don't have any of their own."
 print(famous_person + "once said: " + message)

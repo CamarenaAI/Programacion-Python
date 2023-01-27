@@ -7,4 +7,4 @@ following, including the quotation marks:
     Albert Einstein once said, “A person who never made a 
     mistake never tried anything new.”
 """
-print("Nikola Tesla once said: I don't stole my idea... \n I care that they don't have any of their own.")
+print("Nikola Tesla once said: I don't care that they stole my idea... \n I care that they don't have any of their own.")
