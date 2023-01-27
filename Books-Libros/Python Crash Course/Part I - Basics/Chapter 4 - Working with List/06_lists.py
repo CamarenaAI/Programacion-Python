@@ -9,7 +9,7 @@ lengthy, but much of it relates to more complex coding structures than
 what you’ve seen so far.
 The Python style guide was written with the understanding that code 
 is read more often than it is written. You’ll write your code once and then 
-start reading it as you begin debugging. When you add features to a program, you’ll spend more time reading your code. When you share your 
+start reading it as you begin debugging. When you add features to a program, you’ll spend more time reading your code. When you share your 
 code with other programmers, they’ll read your code as well. 
 Given the choice between writing code that’s easier to write or code 
 that’s easier to read, Python programmers will almost always encourage you 
