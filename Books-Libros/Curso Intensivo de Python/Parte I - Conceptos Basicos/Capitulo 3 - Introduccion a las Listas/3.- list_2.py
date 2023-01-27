@@ -1,41 +1,40 @@
-# Changing, Adding, and Removing Elements
+# Cambiando, agregando y removiendo elementos
 
-# Modifying Elements in a List
-motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
+# Modificando elementos de una lista
+motocicletas = ['honda', 'yamaha', 'suzuki']
+print(motocicletas)
+motocicletas[0] = 'ducati'
+print(motocicletas)
 
-motorcycles[0] = 'ducati'
-print(motorcycles)
+# Agregando elementos de una lista
+motocicletas = ['honda', 'yamaha', 'suzuki']
+print(motocicletas)
 
-# Adding Elements to a List
-motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
+motocicletas.append('ducati') # Concatenando elementos al final de una lista
+print(motocicletas)
 
-motorcycles.append('ducati') # Appending Elements to the End of a List
-print(motorcycles)
+motocicletas = [] 
+motocicletas.append('honda') 
+motocicletas.append('yamaha') 
+motocicletas.append('suzuki') 
+print(motocicletas)
 
-motorcycles = [] 
-motorcycles.append('honda') 
-motorcycles.append('yamaha') 
-motorcycles.append('suzuki') 
-print(motorcycles)
+# Insertando elementos en una lista
+motocicletas = ['honda', 'yamaha', 'suzuki'] 
+motocicletas.insert(0, 'ducati') # Tu pudes agregar un nuevo elemento en una posicion en la lista usando el metodo insert()
+print(motocicletas)
 
-# Inserting Elements into a List
-motorcycles = ['honda', 'yamaha', 'suzuki'] 
-motorcycles.insert(0, 'ducati') # You can add a new element at any position in your list by using the insert() method 
-print(motorcycles)
+# Removiendo elementos de una lista
+motocicletas = ['honda', 'yamaha', 'suzuki'] 
+print(motocicletas)
 
-# Removing Elements from a List
-motorcycles = ['honda', 'yamaha', 'suzuki'] 
-print(motorcycles)
+del motocicletas[0] # Removiendo un elemento usando el metodo del
+print(motocicletas)
 
-del motorcycles[0] # Removing an Item Using the del Statement
-print(motorcycles)
-
-motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
-del motorcycles[1] 
-print(motorcycles)
+motocicletas = ['honda', 'yamaha', 'suzuki']
+print(motocicletas)
+del motocicletas[1] 
+print(motocicletas)
 
 # Removing an Item Using the pop() Method
 motorcycles = ['honda', 'yamaha', 'suzuki']
