@@ -6,10 +6,10 @@ Make a list of five or more usernames, including the name
 after they log in to a website. Loop through the list, and print a gretting to
 each user:
 
-•    If the username is 'admin', print a special greeting such as Hello admin,
-would you like to see status report?
-•    Otherwise, print a generic greeting, such as Hello Eric, thank you for 
-loggin in again
+•   If the username is 'admin', print a special greeting such as Hello admin,
+    would you like to see status report?
+•   Otherwise, print a generic greeting, such as Hello Eric, thank you for 
+    loggin in again
 """
 
 usernames = ['admin', 'Eric', 'Jhon', 'Matt', 'Kevin', 
