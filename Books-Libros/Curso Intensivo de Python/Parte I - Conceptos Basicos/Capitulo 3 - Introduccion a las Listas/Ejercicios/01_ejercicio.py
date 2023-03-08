@@ -1,7 +1,6 @@
 """
 3.1 Nombres
 
-
 Guarde los nombres de algunos de sus amigos en una lista llamada nombres. 
 Imprima el nombre de cada persona accediendo a cada elemento de la lista, uno a la vez
 """
