@@ -1,7 +1,7 @@
-# Making Numerical Lists
+# Hacer Listas Numéricas
 
-# Using the range() Function
-for value in range(1,5): # Python’s range() function makes it easy to generate a series of numbers
+# Uso de la Función range()
+for value in range(1,5): # La función range() de Python facilita la generación de una serie de números
     print(value)
 print("\n")
 
@@ -9,7 +9,7 @@ for value in range(1,6):
     print(value)
 print("\n")
 
-# Using range() to Make a List of Numbers
+# Usando range() Para Hacer una Lista de Números
 numbers = list(range(1,6))
 print(numbers)
 
@@ -27,12 +27,12 @@ for value in range(1,11):
     squares.append(value**2)
 print(squares, "\n")
 
-# Simple Statistics with a List of Numbers
+# Estadísticas Simples con una Lista de Números
 digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 print(min(digits))
 print(max(digits))
 print(sum(digits), "\n")
 
-# List Comprehensions
+# Lista de Comprensiones
 squares = [value**2 for value in range(1,11)]
 print(squares)

@@ -1,10 +1,11 @@
 """
-4.12 More Loops
+4.12 Mas Ciclos
 
-All versions of foods.py in this section have avoided using 
-for loops when printing to save space. Choose a version of foods.py, and 
-write two for loops to print each list of foods
+Todas las versiones de foods.py en esta sección han evitado el uso de
+ciclo for al imprimir para ahorrar espacio. Elija una versión de
+foods.py y escriba dos bucles for para imprimir cada lista de alimentos
 """
+
 # foods.py
 my_foods = ['pizza', 'falafel', 'carrot cake']
 friend_foods = my_foods[:]

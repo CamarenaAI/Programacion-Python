@@ -1,6 +1,6 @@
-# Avoiding Indentation Errors
+# Evitar Errores de Sangría
 
-# Forgetting to Indent
+# Olvidando las Sangrías
 """
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
@@ -12,13 +12,13 @@ print(magician)
 IndentationError: expected an indented block
 """
 
-# Forgetting to Indent Additional Lines
+# Olvidando las Sangrías, Líneas Adicionales
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
     print(magician.title() + ", that was a great trick!")
 print("I can't wait to see your next trick, " + magician.title() + ".\n")
 
-# Indenting Unnecessarily
+# Sangría Innecesaria
 """
 message = "Hello Python world!"
     print(message)
@@ -29,7 +29,7 @@ message = "Hello Python world!"
 IndentationError: unexpected indent
 """
 
-# Indenting Unnecessarily After the Loop
+# Sangría Innecesaria Después del Ciclo
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
     print(magician.title() + ", that was a great trick!") 
@@ -37,7 +37,7 @@ for magician in magicians:
  
     print("Thank you everyone, that was a great magic show!")
 
-# Forgetting the Colon
+# Olvidando los Dos Puntos
 """
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians

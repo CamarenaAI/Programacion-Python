@@ -1,10 +1,11 @@
-# Tuples
+# Tuplas
 
-# Defining a Tuple
+# Definición de una Tupla
 """
-A tuple looks just like a list except you use parentheses instead of square 
-brackets. Once you define a tuple, you can access individual elements by 
-using each item’s index, just as you would for a list
+Una tupla se parece a una lista, excepto que usa paréntesis en lugar de
+corchetes. Una vez que define una tupla, puede acceder a elementos
+individuales utilizando el índice de cada elemento, tal como lo haría
+con una lista
 """
 dimensions = (200, 50)
 print(dimensions[0])
@@ -20,12 +21,12 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 """
 
-# Looping Through All Values in a Tuple
+# Recorriendo Todos los Valores en una Tupla
 dimensions = (200, 50)
 for dimension in dimensions:
     print(dimension,"\n")
 
-# Writing over a Tuple
+# Escribiendo Sobre una Tupla
 dimensions = (200, 50)
 print("Original dimensions:")
 for dimension in dimensions:
