@@ -1,10 +1,10 @@
-# Ciclo a través de una lista completa
+# Ciclo a Través de una Lista Completa
 
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
     print(magician)
 
-# Una Mirada más cercana al Ciclo
+# Una Mirada más Cercana al Ciclo
 for magician in magicians:
     print(magician)
 
