@@ -1,16 +1,18 @@
 """
 3.4 Lista de Invitados
 
-Si pudieras invitar a alguien, vivo o fallecido, a cenar, ¿a quién invitarías? 
-Haz una lista que incluya al menos tres personas a las que te gustaría invitar a cenar. 
-Luego use su lista para imprimir un mensaje para cada persona, invitándolos a cenar
+Si pudieras invitar a alguien, vivo o fallecido, a cenar, 
+¿a quién invitarías? Haz una lista que incluya al menos tres personas a
+las que te gustaría invitar a cenar. Luego use su lista para imprimir un
+mensaje para cada persona, invitándolos a cenar
 """
-invitados = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 
-mensaje_1 = "Hola Sr." + invitados[0] + " \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_2 = "Hola " + invitados[1] + " \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera\n"
-mensaje_3 = "Hola "  + invitados[2] + " \n¿Como esta? \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera"
+guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 
-print(mensaje_1)
-print(mensaje_2)
-print(mensaje_3)
+message_1 = "Hello Mr." + guests[0] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_2 = "Hi " + guests[1] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_3 = "Hello "  + guests[2] + " \nHow are you? \nI have a dinner in my house the next week, \nI would like you to come"
+
+print(message_1)
+print(message_2)
+print(message_3)

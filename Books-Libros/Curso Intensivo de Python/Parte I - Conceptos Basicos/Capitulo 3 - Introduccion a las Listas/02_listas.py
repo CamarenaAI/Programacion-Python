@@ -1,68 +1,69 @@
 # Cambiando, agregando y removiendo elementos
 
 # Modificando elementos de una lista
-motocicletas = ['honda', 'yamaha', 'suzuki']
-print(motocicletas)
-motocicletas[0] = 'ducati'
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+motorcycles[0] = 'ducati'
+print(motorcycles)
 
 # Agregando elementos de una lista
-motocicletas = ['honda', 'yamaha', 'suzuki']
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-motocicletas.append('ducati') # Concatenando elementos al final de una lista
-print(motocicletas)
+motorcycles.append('ducati') # Concatenando elementos al final de una lista
+print(motorcycles)
 
-motocicletas = [] 
-motocicletas.append('honda') 
-motocicletas.append('yamaha') 
-motocicletas.append('suzuki') 
-print(motocicletas)
+motorcycles = [] 
+motorcycles.append('honda') 
+motorcycles.append('yamaha') 
+motorcycles.append('suzuki') 
+print(motorcycles)
 
 # Insertando elementos en una lista
-motocicletas = ['honda', 'yamaha', 'suzuki'] 
-motocicletas.insert(0, 'ducati') # Tu pudes agregar un nuevo elemento en una posicion en la lista usando el metodo insert()
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+motorcycles.insert(0, 'ducati') # Tu pudes agregar un nuevo elemento en una posicion en la lista usando el metodo insert()
+print(motorcycles)
 
 # Removiendo elementos de una lista
-motocicletas = ['honda', 'yamaha', 'suzuki'] 
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+print(motorcycles)
 
-del motocicletas[0] # Removiendo un elemento usando el metodo del
-print(motocicletas)
+del motorcycles[0] # Removiendo un elemento usando el metodo del
+print(motorcycles)
 
-motocicletas = ['honda', 'yamaha', 'suzuki']
-print(motocicletas)
-del motocicletas[1] 
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[1] 
+print(motorcycles)
 
 # Removiendo un elemento usando el metodo pop()
-motocicletas = ['honda', 'yamaha', 'suzuki']
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-motocicletas_pop = motocicletas.pop() # El metodo pop() remueve el ultimo elemento en una lista, pero te permite trabajar con ese elemento despues de eliminarlo
-print(motocicletas)
-print(motocicletas_pop)
+popped_motorcycle = motorcycles.pop() # El metodo pop() remueve el ultimo elemento en una lista, pero te permite trabajar con ese elemento despues de eliminarlo
+print(motorcycles)
+print(popped_motorcycle)
 
-motocicletas = ['honda', 'yamaha', 'suzuki'] 
-ultima_motocicleta = motocicletas.pop() 
-print("La ultima motocicleta que tuve fue una " + ultima_motocicleta.title() + ".")
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+last_owned = motorcycles.pop() 
+print("The last motorcycle I owned was a " + last_owned.title() + ".")
 
 # Removiendo elementos en cualquier posicion en una lista 
-primer_motocicleta = motocicletas.pop(0) # De hecho, puede usar pop() para eliminar un elemento de una lista en cualquier posición al incluir el índice del elemento que desea eliminar entre paréntesis
-print('La primer motocicleta que tuve fue una ' + primer_motocicleta.title() + '.')
+first_owned = motorcycles.pop(0) # De hecho, puede usar pop() para eliminar un elemento de una lista en cualquier posición al incluir el índice del elemento que desea eliminar entre paréntesis
+print('The first motorcycle I owned was a ' + first_owned.title() + '.')
 
 # Removiendo un elemento de acuerdo con un valor
-motocicletas = ['honda', 'yamaha', 'suzuki', 'ducati'] 
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati'] 
+print(motorcycles)
 
-motocicletas.remove('ducati') # Si solo conoce el valor del elemento que desea eliminar, puede usar el método remove()
-print(motocicletas)
+motorcycles.remove('ducati') # Si solo conoce el valor del elemento que desea eliminar, puede usar el método remove()
+print(motorcycles)
 
-motocicletas = ['honda', 'yamaha', 'suzuki', 'ducati'] 
-print(motocicletas)
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati'] 
+print(motorcycles)
 
-motocicleta_cara = 'ducati'
-motocicletas.remove(motocicleta_cara) # También puede usar el método remove() para trabajar con un valor que se está eliminando de una lista
-print(motocicletas)
-print("\nUna " + motocicleta_cara.title() + " es muy cara para mi.")
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive) # También puede usar el método remove() para trabajar con un valor que se está eliminando de una lista
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me.")

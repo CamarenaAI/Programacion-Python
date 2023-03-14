@@ -1,91 +1,91 @@
 """
 3.9 Invitado a la Cena
 
-Trabajando con uno de los programas de los Ejercicios 3-4
-a 3-7 (página 46), use len() para imprimir un mensaje que 
-indique la cantidad de personas que está invitando a cenar
+Trabajando con uno de los programas de los Ejercicios 3-4 a 3-7
+(página 46), use len() para imprimir un mensaje que indique la cantidad
+de personas que está invitando a cenar
 """
 
-# Exercise 3.4
-invitados = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
+# Ejercicio 3.4
+guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
 
-mensaje_1 = "Hola Sr." + invitados[0] + " \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_2 = "Hola " + invitados[1] + " \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera\n"
-mensaje_3 = "Hola "  + invitados[2] + " \n¿Como esta? \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera"
+message_1 = "Hello Mr." + guests[0] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_2 = "Hi " + guests[1] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_3 = "Hello "  + guests[2] + " \nHow are you? \nI have a dinner in my house the next week, \nI would like you to come"
 
-print(mensaje_1)
-print(mensaje_2)
-print(mensaje_3)
-print("Numero de invitados: ", len(invitados))
+print(message_1)
+print(message_2)
+print(message_3)
+print("Number of guests: ", len(guests))
 
-# Exercise 3.5
-print("El Sr. Jeff Bezos no puede asistir")
-invitados = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
-invitados[2] = 'Steve Jobs'
+# Ejercicio 3.5
+print("The Mr. Jeff Bezos can't come")
+guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
+guests[2] = 'Steve Jobs'
 
-mensaje_1 = "Hola Sr." + invitados[0] + " \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_2 = "Hola " + invitados[1] + " \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera\n"
-mensaje_3 = "Hola "  + invitados[2] + " \n¿Como esta? \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera"
+message_1 = "Hello Mr." + guests[0] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_2 = "Hi " + guests[1] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_3 = "Hello "  + guests[2] + " \nHow are you? \nI have a dinner in my house the next week, \nI would like you to come"
 
-print(mensaje_1)
-print(mensaje_2)
-print(mensaje_3)
-print("Numero de invitados: ", len(invitados))
+print(message_1)
+print(message_2)
+print(message_3)
+print("Number of guests: ", len(guests))
 
-# Exercise 3.6
-print("El Sr. Jeff Bezos no puede venir")
-invitados = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
-invitados[2] = 'Steve Jobs'
-invitados.insert(0, 'Steve Wozniak')
-invitados.insert(4, 'Alan Turing')
-invitados.append('Elon Musk')
+# Ejercicio 3.6
+print("The Mr. Jeff Bezos can't come")
+guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
+guests[2] = 'Steve Jobs'
+guests.insert(0, 'Steve Wozniak')
+guests.insert(4, 'Alan Turing')
+guests.append('Elon Musk')
 
-print("Hola caballeros, Encontre una mesa mas grande ")
+print("Hello guys, I found a bigger dinner table ")
 
-mensaje_1 = "Hola Sr." + invitados[0] + " \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_2 = "Hola " + invitados[1] + " \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera\n"
-mensaje_3 = "Hola "  + invitados[2] + " \n¿Como esta? \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera"
-mensaje_4 = "Hello Mr." + invitados[3] + "  \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_5 = "Hi " + invitados[4] + "  \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_6 = "Hello "  + invitados[5] + " \n¿Como esta? \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera"
+message_1 = "Hello Mr." + guests[0] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_2 = "Hi " + guests[1] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_3 = "Hello "  + guests[2] + " \nHow are you? \nI have a dinner in my house the next week, \nI would like you to come"
+message_4 = "Hello Mr." + guests[3] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_5 = "Hi " + guests[4] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_6 = "Hello "  + guests[5] + " \nHow are you? \nI have a dinner in my house the next week, \nI would like you to come"
 
-print(mensaje_1)
-print(mensaje_2)
-print(mensaje_3)
-print(mensaje_4)
-print(mensaje_5)
-print(mensaje_6)
-print("Numero de invitados: ", len(invitados))
+print(message_1)
+print(message_2)
+print(message_3)
+print(message_4)
+print(message_5)
+print(message_6)
+print("Number of guests: ", len(guests))
 
-# Exercise 3.7
-print("El Sr. Jeff Bezos no puede venir")
-invitados = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
-invitados[2] = 'Steve Jobs'
-invitados.insert(0, 'Steve Wozniak')
-invitados.insert(4, 'Alan Turing')
-invitados.append('Elon Musk')
+# Ejercicio 3.7
+print("The Mr. Jeff Bezos can't come")
+guests = ['Bill Gates', 'Marck Zuckerberg', 'Jeff Bezos']
+guests[2] = 'Steve Jobs'
+guests.insert(0, 'Steve Wozniak')
+guests.insert(4, 'Alan Turing')
+guests.append('Elon Musk')
 
-print("Hola caballeros, Encontre una mesa mas grande ")
-print("Lo siento caballeros, Solo puedo invitar a dos personas a cenar\n")
+print("Hello guys, I found a bigger dinner table\n")
 
-primer_invitado = invitados.pop(5)
-print('Lo siento Sr. ' + primer_invitado.title() + ' Solo puedo invitar a dos personas a cenar')
-segundo_invitado = invitados.pop(4)
-print('Lo siento Sr. ' + segundo_invitado.title() + ' Solo puedo invitar a dos personas a cenar')
-tercer_invitado = invitados.pop(3)
-print('Lo siento Sr. ' + tercer_invitado.title() + ' Solo puedo invitar a dos personas a cenar')
-cuarto_invitado = invitados.pop(0)
-print('Lo siento Sr. ' + cuarto_invitado.title() + ' Solo puedo invitar a dos personas a cenar')
-print("Numero de invitados: ", len(invitados))
+print("Sorry guys, I can invite only two people for dinner\n")
+first_guest = guests.pop(5)
+print('Sorry Mr. ' + first_guest.title() + ' I can invite only two people')
+second_guest = guests.pop(4)
+print('Sorry Mr. ' + second_guest.title() + ' I can invite only two people')
+third_guest = guests.pop(3)
+print('Sorry Mr. ' + third_guest.title() + ' I can invite only two people')
+fourth_guest = guests.pop(0)
+print('Sorry Mr. ' + fourth_guest.title() + ' I can invite only two people\n')
+print("Number of guests: ", len(guests))
 
-mensaje_1 = "Hola Sr." + invitados[0] + " \nTengo una cena la proxima semana, \nMe gustaria que viniera\n"
-mensaje_2 = "Hola " + invitados[1] + " \nTengo una cena en mi casa la proxima semana, \nMe gustaria que viniera\n"
+message_1 = "Hello " + guests[0] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
+message_2 = "Hi " + guests[1] + " \nI have a dinner in my house the next week, \nI would like you to come\n"
 
-print(mensaje_1)
-print(mensaje_2)
-print("Numero de invitados: ", len(invitados))
+print(message_1)
+print(message_2)
+print("Number of guests: ", len(guests))
 
-del invitados[1]
-del invitados[0]
-print(invitados)
-print("Numero de invitados: ", len(invitados))
+del guests[1]
+del guests[0]
+print(guests)
+print("Number of guests: ", len(guests))
