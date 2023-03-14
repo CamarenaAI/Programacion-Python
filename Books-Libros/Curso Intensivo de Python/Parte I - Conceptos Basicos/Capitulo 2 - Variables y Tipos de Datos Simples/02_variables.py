@@ -1,19 +1,19 @@
 # Variables
 
-mensaje = "¡Hola mundo de Python!"
-print(mensaje)
+message = "Hello Python world!"
+print(message)
 
-mensaje = "¡Hola mundo del Curso Intensivo de Python!"
-print(mensaje)
+message = "Hello Python Crash Course world!"
+print(message)
 
 # Evite errores de nombre al usar variables
 """
-mensaje = "¡Hola, lector del Curso Intensivo de Python!"
-print(mensage)
+message = "Hello Python Crash Course reader!"
+print(mesage)
 Output = SyntaxError: invalid syntax
 
-Please change mensaje for mensage
+Please change message for mesage
 """
 
-mensaje = "¡Hola, lector del Curso Intensivo de Python!"
-print(mensaje)
+mesage = "Hello Python Crash Course reader!"
+print(mesage)

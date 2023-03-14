@@ -27,6 +27,6 @@ print(0.2 + 0.1)
 print(3 * 0.1)
 
 # Evitando errores de tipo con la función str()
-edad = 23
-mensaje = "Feliz " + str(edad) + "ro cumpleaños" # Puede hacer esto envolviendo la variable en la función str(), que le dice a Python que represente valores que no son cadenas como cadenas.
-print(mensaje)
+age = 23
+message = "Happy " + str(age) + "rd Birthday" # Puede hacer esto envolviendo la variable en la función str(), que le dice a Python que represente valores que no son cadenas como cadenas.
+print(message)

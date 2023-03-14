@@ -1,4 +1,5 @@
 # Comentarios
 
 # ¿Como escribir un comentario?
-print("¡Hola gente Python!") # Saluda a todos
+# Saluda a todos
+print("Hello Python people!")

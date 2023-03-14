@@ -3,5 +3,6 @@
 
 Guarda un mensaje en una variable e imprime ese mensaje
 """
-mensaje = "¿Hola, te gustaria aprender Python hoy?"
-print(mensaje)
+
+message = "Hello would you like learn Python today?"
+print(message)
