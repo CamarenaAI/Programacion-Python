@@ -1,9 +1,9 @@
 """
-5.1 Conditional Tests
+5.1 Pruebas Condicionales
 
-Write a series of conditional tests. Print a statement 
-describing each test and your prediction for the results of each test. Your code 
-should look something like this:
+Escribe una serie de pruebas condicionales. Imprima una declaración que
+describa cada prueba y su predicción para los resultados de cada prueba.
+Su código debería ser algo como esto:
 
 car = 'subaru'
 print("Is car == 'subaru'? I predict True.")
@@ -11,10 +11,10 @@ print(car == 'subaru')
 print("\nIs car == 'audi'? I predict False.")
 print(car == 'audi')
 
-•	 Look closely at your results, and make sure you understand why each line 
-evaluates to True or False.
-•	 Create at least 10 tests. Have at least 5 tests evaluate to True and another 
-5 tests evaluate to False.
+•   Mire de cerca sus resultados y asegúrese de entender por qué cada
+    línea se evalúa como Verdadero o Falso.
+•   Crear al menos 10 pruebas. Haga que al menos 5 pruebas se evalúen
+    como Verdadero y otras 5 pruebas se evalúen como Falso.
 """
 
 car = 'mustang'
