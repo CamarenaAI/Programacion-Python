@@ -1,3 +1,3 @@
-print("¡Hola Pythoner!")
-print("¡Hola Mundo!")
-print("¡Hola Mundo de Python!")
+print("Hello Python interpeter!")
+print("Hello World!")
+print("Hello Python world!")
