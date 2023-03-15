@@ -1,5 +1,5 @@
 # Conditional Test
-
+ 
 # Checking for Equality
 car = 'audi' # Insert the model of the car
 if car == 'bmw':
