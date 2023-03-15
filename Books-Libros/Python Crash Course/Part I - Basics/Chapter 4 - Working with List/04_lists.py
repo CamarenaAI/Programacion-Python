@@ -1,4 +1,4 @@
-# Working with Part of a List
+# Working with part of a List
 
 # Slicing a List
 players = ['charles', 'martina', 'michael', 'florence', 'eli'] 

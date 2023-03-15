@@ -29,7 +29,7 @@ message = "Hello Python world!"
 IndentationError: unexpected indent
 """
 
-# Indenting Unnecessarily After the Loop
+# Indenting Unnecessarily After the loop
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
     print(magician.title() + ", that was a great trick!") 
