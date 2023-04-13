@@ -9,7 +9,7 @@
 |4|`Working with list`|4.1 - 4.15|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%204%20-%20Working%20with%20List/Exercises)|
 |5|`If Statements`|5.1 - 5.13|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%205%20-%20If%20Statements/Excercises)|
 |6|`Dictionaries`|6.1 - 6.12|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%206%20-%20Dictionaries/Exercises)|
-|7|`User Input and while loops`||[Link]()|
+|7|`User Input and while loops`|7.1 - 7.10|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%207%20-%20User%20Input%20and%20while%20Loops/Exercises)|
 |8|`Functions`||[Link]()|
 |9|`Classes`||[Link]()|
 |10|`Files and Exceptions`||[Link]()|
