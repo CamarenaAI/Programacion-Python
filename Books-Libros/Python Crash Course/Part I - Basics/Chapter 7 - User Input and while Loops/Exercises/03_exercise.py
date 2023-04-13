@@ -1,6 +1,6 @@
 """
 7.3 Multiples of ten
-                                                                       |
+
 Ask the user for a number, and the report whether the number is a
 multiple of 10 or not
 """
