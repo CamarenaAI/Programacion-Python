@@ -5,8 +5,8 @@
 | :-------------: |:-------------:| :-------------:| :-------------: |
 |1|`Getting Started`|1.1 - 1.3|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%201%20-%20Getting%20Started/Excercises)|
 |2|`Variables and Simple Data Types`|2.1 - 2.11|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types/Excercises)|
-|3|`Introducing List`|3.1 - 3.11|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%203%20-%20Introducing%20List/Excercises)|
-|4|`Working with list`|4.1 - 4.15|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%204%20-%20Working%20with%20List/Exercises)|
+|3|`Introducing Lists`|3.1 - 3.11|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%203%20-%20Introducing%20Lists/Exercises)|
+|4|`Working with lists`|4.1 - 4.15|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%204%20-%20Working%20with%20Lists/Exercises)|
 |5|`If Statements`|5.1 - 5.13|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%205%20-%20If%20Statements/Excercises)|
 |6|`Dictionaries`|6.1 - 6.12|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%206%20-%20Dictionaries/Exercises)|
 |7|`User Input and while loops`|7.1 - 7.10|[Link](https://github.com/CamarenaAI/Programacion-Python/tree/main/Books-Libros/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%207%20-%20User%20Input%20and%20while%20Loops/Exercises)|
