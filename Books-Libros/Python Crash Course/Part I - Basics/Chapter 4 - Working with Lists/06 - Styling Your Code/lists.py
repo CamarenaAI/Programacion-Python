@@ -1,5 +1,3 @@
-# Styling Your Code
-
 # The Style Guide
 """
 When someone wants to make a change to the Python language, they write
