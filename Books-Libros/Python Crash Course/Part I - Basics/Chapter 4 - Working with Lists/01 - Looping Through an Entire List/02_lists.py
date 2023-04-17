@@ -1,4 +1,4 @@
-# Doing More Work Within a for loop
+# Doing More Work Within a for Loop
 
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 

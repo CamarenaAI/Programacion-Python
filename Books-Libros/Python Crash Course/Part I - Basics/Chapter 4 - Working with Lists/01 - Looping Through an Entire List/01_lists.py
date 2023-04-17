@@ -1,12 +1,7 @@
+# A Closer Look at Looping
+
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
-    print(magician)
-
-# A Closer Look at Looping
-for magician in magicians:
-    print(magician)
-
-for magician in magicians:
     print(magician)
 
 """

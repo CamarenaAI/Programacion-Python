@@ -1,13 +1,14 @@
-# Forgetting the Colon
+# Indenting Unnecessarily
 
 """
-magicians = ['alice', 'david', 'carolina'] 
-for magician in magicians
-    print(magician)
+message = "Hello Python world!"
+    print(message)
 
-Expected ":" Pylance [Lin, 5, col26]
+ File "hello_world.py", line 2
+ print(message)
+ ^
+IndentationError: unexpected indent
 """
 
-magicians = ['alice', 'david', 'carolina'] 
-for magician in magicians:
-    print(magician)
+message = "Hello Python world!"
+print(message)

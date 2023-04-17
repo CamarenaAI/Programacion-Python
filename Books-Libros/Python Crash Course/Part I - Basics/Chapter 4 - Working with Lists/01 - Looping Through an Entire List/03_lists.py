@@ -1,4 +1,4 @@
-# Doing Something After a for loop
+# Doing Something After a for Loop
 
 magicians = ['alice', 'david', 'carolina'] 
 for magician in magicians: 
