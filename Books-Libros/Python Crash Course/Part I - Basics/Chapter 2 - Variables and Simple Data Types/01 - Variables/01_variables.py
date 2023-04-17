@@ -1,10 +1,5 @@
-message = "Hello Python world!"
-print(message)
-
-message = "Hello Python Crash Course world!"
-print(message)
-
 # Naming and Using Variables
+
 """
 •	Variable names can contain only letters, numbers, and underscores.
     They can start with a letter or an underscore, but not with a
@@ -24,14 +19,8 @@ print(message)
     letter O because they could be confused with the numbers 1 and 0
 """
 
-# Avoid Name Errors When Using Variables
-"""
-message = "Hello Python Crash Course reader!"
-print(mesage)
-Output = SyntaxError: invalid syntax
+message = "Hello Python world!"
+print(message)
 
-Please change message for mesage
-"""
-
-mesage = "Hello Python Crash Course reader!"
-print(mesage)
+message = "Hello Python Crash Course world!"
+print(message)
