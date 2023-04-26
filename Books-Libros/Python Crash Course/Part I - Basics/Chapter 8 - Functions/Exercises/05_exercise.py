@@ -8,3 +8,9 @@ value. Call your function for three different cities, at least one of
 which is not in the default country
 """
 
+def describe_city(name, country):
+    print(name.title() + " is in " + country.title())
+
+describe_city('guadalajara', 'mexico')
+describe_city(name='reykjavik', country='iceland')
+describe_city('london', country='england')

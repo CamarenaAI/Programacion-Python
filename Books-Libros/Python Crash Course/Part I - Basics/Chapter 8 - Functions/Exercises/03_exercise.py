@@ -8,7 +8,9 @@ it. Call the function once using positional arguments to make a shirt.
 Call the function a second time using keyword arguments 
 """
 
-def make_shirt():
-    print("")
+def make_shirt(size, text):
+    """Display information about the t-shirt."""
+    print("The size of the t-shirt is: " + size)
+    print("The text on the shirt reads: " + text.title())
 
-make_shirt()
+make_shirt(size='large', text='python world')
