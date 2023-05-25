@@ -78,3 +78,9 @@
     the current date at the top of each program file. Then write one sentence
     describing what the program does.
 </p>
+
+<h2>2.11 Zen of Python</h2>
+<p>
+    Enter import this into a Python terminal session and skim
+    through the additional principles.
+</p>
