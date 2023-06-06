@@ -8,14 +8,14 @@
 
 <h2>2.2 Simple Messages</h2>
 <p>
-    Assign a messages to a variable, and print that message.
-    Then change the vakue if the variable to a new message, and print the new
+    Assign a message to a variable, and print that message.
+    Then change the value of the variable to a new message, and print the new
     message.
 </p>
 
 <h2>2.3 Personal Message</h2>
 <p>
-    Use a variable to represent a person's name, and then print
+    Use a variable to represent a person's name, and print
     a message to that person. Your message should be simple, such as, "Hello, Eric,
     would you like to learn some Python today?"
 </p>
@@ -37,7 +37,7 @@
 
 <h2>2.6 Famous Quote 2</h2>
 <p>
-    Repeat Exercise 2-5, but this time, represent the
+    Repeat Exercise 2.5, but this time, represent the
     famous person’s name using a variable called famous_person. Then compose
     your message and represent it with a new variable called message. Print your
     message.
@@ -53,24 +53,32 @@
     strip().
 </p>
 
-<h2>2.8 Number Eight</h2>
+<h2>2.8 File Extensions</h2>
+<p>
+    Python has a removesuffix() method that works exactly like removeprefix().
+    Assign the value 'python_notes.txt' to a variable called filename. Then
+    use the removesuffix() method to display the filename without the file extension,
+    like some file browsers do.
+</p>
+
+<h2>2.9 Number Eight</h2>
 <p>
     Write addition, subtraction, multiplication, and division
     operations that each result in the number 8. Be sure to enclose your operations
-    in print() calls to see the results. You should create four lines that look like this:
+    in print() calls to see the results. You should create four lines that look like this:<br>
     print(5+3)
-    Your output should simply be four lines with the number 8 appearing once
+    <br>Your output should simply be four lines with the number 8 appearing once
     on each line.
 </p>
 
-<h2>2.9 Favorite Number</h2>
+<h2>2.10 Favorite Number</h2>
 <p>
     Use a variable to represent your favorite number.
     Then, using that variable, create a message that reveals your favorite number.
     Print that message.
 </p>
 
-<h2>2.10 Adding Comments</h2>
+<h2>2.11 Adding Comments</h2>
 <p>
     Choose two of the programs you’ve written, and
     add at least one comment to each. If you don’t have anything specific to write
@@ -79,7 +87,7 @@
     describing what the program does.
 </p>
 
-<h2>2.11 Zen of Python</h2>
+<h2>2.12 Zen of Python</h2>
 <p>
     Enter import this into a Python terminal session and skim
     through the additional principles.
