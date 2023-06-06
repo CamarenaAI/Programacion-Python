@@ -20,6 +20,8 @@
 <h2>1.3 Infinite Skills</h2>
 <p>If you had infinite programming skills, what would you
     build? You’re about to learn how to program. If you have an end goal in mind,
-    you’ll have an immediate use for your new skills; now is a great time to draft
-    descriptions of what you want to create. It’s a good habit to keep an “ideas”
+    you’ll have an immediate use for your new skills; now is a great time to write
+    brief descriptions of what you want to create. It’s a good habit to keep an “ideas”
+    notebook that you can refer to whenever you wantto start a new project. Take a
+    few minutes now to describe three programsyou want to creat
 </p>
