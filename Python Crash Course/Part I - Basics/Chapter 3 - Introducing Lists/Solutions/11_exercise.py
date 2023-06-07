@@ -6,7 +6,8 @@ del languages[4]
 languages.pop(3)
 languages.remove('French')
 
-print("I speak ", languages[0])
+print(f"I speak {languages[0]}")
+# print("I would like learn {languages[6]}") Error
 print(languages)
 
 # Alphabetic order
@@ -30,4 +31,4 @@ print(languages)
 # Reverse alphabetic order
 languages.sort(reverse=True)
 print(languages)
-print("Number of languages, I would like learn: ", len(languages))
+print(f"Number of languages, I would like learn: {len(languages)}")
