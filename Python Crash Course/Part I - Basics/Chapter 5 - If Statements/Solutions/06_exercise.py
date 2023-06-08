@@ -13,4 +13,4 @@ elif age >= 20 and age < 65:
 else:
     age = "elder"
     
-print("The person is a/an " + age)
+print(f"The person is a/an {age}")
