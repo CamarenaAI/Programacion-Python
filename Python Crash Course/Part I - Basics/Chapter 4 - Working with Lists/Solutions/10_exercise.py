@@ -3,7 +3,7 @@ pizzas = ['hawaiian', 'buffalo', 'pepperoni', 'cheese',
     'supreme', 'margherita']
 
 for pizza in pizzas:
-    print("This is a " + pizza + " pizza\n" )
+    print(f"This is a {pizza} pizza\n" )
 
 print(pizzas[0:3])
 print(pizzas[3:6])
