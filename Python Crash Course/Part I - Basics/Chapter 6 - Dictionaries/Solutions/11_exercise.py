@@ -19,10 +19,12 @@ cities = {
     }
 
 for name, city_info in cities.items():
-    print("\nCity: " + name.title())
+    print(f"\nCity: {name.title()}")
+    
     country = city_info['country']
     population = city_info['population']
     fact = city_info['fact']
-    print("\tCountry: " + country.title())
-    print("\tPopulation: " + str(population) + " million")
-    print("\tFact: " + fact)
+
+    print(f"\tCountry: {country.title()}")
+    print(f"\tPopulation: {population} million")
+    print(f"\tFact: {fact}")

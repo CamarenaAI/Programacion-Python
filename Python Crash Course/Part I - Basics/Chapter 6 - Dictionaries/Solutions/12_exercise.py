@@ -22,10 +22,11 @@ companies = {
     }
 
 for name, company_info in companies.items():
-    print("\nCompany: " + name.title())
+    print(f"\nCompany: {name.title()}")
+
     full_name = company_info['first_name'] + company_info['last_name']
     city = company_info['city']
     age = company_info['age']
     
-    print("\tCEO: " + full_name.title() + " live in " + city.title() + 
-        " and He is " + str(age) + " years")
+    print(f"\tCEO: {full_name.title()} live in {city.title()}" 
+        f" and He is {age} years")

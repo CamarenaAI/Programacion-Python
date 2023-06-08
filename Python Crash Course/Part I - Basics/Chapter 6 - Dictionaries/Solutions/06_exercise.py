@@ -6,12 +6,12 @@ favorite_languages = {
 }
 
 for name, language in favorite_languages.items():
-    print(name.title() + "'s favorite language is " +
-        language.title() + ".")
+    print(f"{name.title()}'s favorite language is "
+        f"{language.title()}.")
 
 people = ['jen', 'sarah', 'edward', 'phil', 'michael', 'drake', 'axel']
 for name in people:
     if name in favorite_languages.keys():
-        print("Hi " + name.title() + ", thank you for taking the poll.")
+        print(f"Hi {name.title()}, thank you for taking the poll.")
     else:
-        print("Hi " + name.title() + ", take a poll please")
+        print(f"Hi {name.title()}, take a poll please")

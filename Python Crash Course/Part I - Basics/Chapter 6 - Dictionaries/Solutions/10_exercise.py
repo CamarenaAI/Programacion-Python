@@ -7,6 +7,6 @@ people_numbers = {
 }
 
 for name, numbers in people_numbers.items():
-    print("\n" + name.title() + "'s favorite numbers are:")
+    print(f"\n{name.title()}'s favorite numbers are:")
     for number in numbers:
-        print("\t" + str(number))
+        print(f"\t {number}")
