@@ -107,7 +107,7 @@
 
 <h2>4.11 My Pizzas, Your Pizzas</h2>
 <p>
-    Start with your program from Exercise 4-1
+    Start with your program from Exercise 4.1
     (page 60). Make a copy of the list of pizzas, and call it friend_pizzas.
     Then, do the following:
 <ul>
