@@ -40,7 +40,7 @@
 <h2>6.4 Glossary 2</h2>
 <p>
     Now that you know how to loop through a dictionary, clean
-    up the code from Exercise 6-3 (page 102) by replacing your series of print
+    up the code from Exercise 6.3 (page 102) by replacing your series of print
     statements with a loop that runs through the dictionary’s keys and values.
     When you’re sure that your loop works, add five more Python terms to your
     glossary. When you run your program again, these new words and meanings
@@ -84,7 +84,7 @@
 
 <h2>6.7 People</h2>
 <p>
-    Start with the program you wrote for Exercise 6-1 (page 102).
+    Start with the program you wrote for Exercise 6.1 (page 102).
 Make two new dictionaries representing different people, and store all three 
 dictionaries in a list called people. Loop through your list of people. As you 
 loop through the list, print everything you know about each person.
@@ -109,7 +109,7 @@ each person’s name and their favorite places.
 
 <h2>6.10 Favorite Numbers</h2>
 <p>
-    Modify your program from Exercise 6-2 (page 102) so 
+    Modify your program from Exercise 6.2 (page 102) so 
 each person can have more than one favorite number. Then print each person’s 
 name along with their favorite numbers.
 </p>
