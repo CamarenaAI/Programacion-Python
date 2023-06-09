@@ -39,7 +39,7 @@
     someone else to invite.
 <ul>
     <li>
-        Start with your program from Exercise 3-4. Add a print statement at the
+        Start with your program from Exercise 3.4. Add a print statement at the
         end of your program stating the name of the guest who can’t make it.
     </li>
     <li>
@@ -59,7 +59,7 @@
     available. Think of three more guests to invite to dinner.
 <ul>
     <li>
-        Start with your program from Exercise 3-4 or Exercise 3-5. Add a print
+        Start with your program from Exercise 3.4 or Exercise 3.5. Add a print
         statement to the end of your program informing people that you found a
         bigger dinner table.
     </li>
@@ -84,7 +84,7 @@
     arrive in time for the dinner, and you have space for only two guests.
 <ul>
     <li>
-        Start with your program from Exercise 3-6. Add a new line that prints a
+        Start with your program from Exercise 3.6. Add a new line that prints a
         message saying that you can invite only two people for dinner.
     </li>
     <li>
