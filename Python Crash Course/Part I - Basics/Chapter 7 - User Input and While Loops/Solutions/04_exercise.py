@@ -7,4 +7,4 @@ while True:
     if toppings == 'quit':
         break
     else:
-        print("You'll add " + toppings.lower() + " to their pizza!")
+        print(f"You'll add {toppings.lower()} to their pizza!")

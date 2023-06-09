@@ -1,4 +1,4 @@
-prompt = "\n Please enter your age: "
+prompt = "\nPlease enter your age: "
 
 while True:
     age = int(input(prompt))
