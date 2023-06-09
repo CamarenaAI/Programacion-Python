@@ -73,7 +73,7 @@
 
 <h2>5.4 Alien Colors #2</h2>
 <p>
-    Choose a color for an alien as you did in Exercise 5-3, and
+    Choose a color for an alien as you did in Exercise 5.3, and
     write an if-else chain.
 <ul>
     <li>
@@ -93,7 +93,7 @@
 
 <h2>5.5 Alien Colors #3</h2>
 <p>
-    Turn your if-else chain from Exercise 5-4 into an if-elif-else chain.
+    Turn your if-else chain from Exercise 5.4 into an if-elif-else chain.
 <ul>
     <li>
         If the alien is green, print a message that the player earned 5 points.
