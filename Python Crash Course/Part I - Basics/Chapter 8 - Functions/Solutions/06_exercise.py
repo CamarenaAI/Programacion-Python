@@ -1,5 +1,5 @@
 def city_country(name, country):
-    string_formatted = name + ', ' + country + "\n"
+    string_formatted = f"{name}, {country}\n"
     return string_formatted.title()
 
 city = city_country('santiago', 'chile')
