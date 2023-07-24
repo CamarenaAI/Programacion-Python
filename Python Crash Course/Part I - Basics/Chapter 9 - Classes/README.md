@@ -73,7 +73,7 @@
     or Exercise 9.5 (page 167). Add an attribute, privileges, that stores a list 
     of strings like "can add post", "can delete post", "can ban user", and so on. 
     Write a method called show_privileges() that lists the administrator’s set of 
-    privileges. Create an instance of Admin, and call your method
+    privileges. Create an instance of Admin, and call your method.
 </p>
 
 <h2>9.8 Privileges</h2>
@@ -82,7 +82,7 @@
     attribute, privileges, that stores a list of strings as described in Exercise 9.7. 
     Move the show_privileges() method to this class. Make a Privileges instance 
     as an attribute in the Admin class. Create a new instance of Admin and use your 
-    method to show its privileges
+    method to show its privileges.
 </p>
 
 <h2>9.9 Upgrade Battery</h2>
@@ -92,5 +92,59 @@
     should check the battery size and set the capacity to 100 if it isn’t already. 
     Make an electric car with a default battery size, call get_range() once, and 
     then call get_range() a second time after upgrading the battery. You should 
-    see an increase in the car’s range
+    see an increase in the car’s range.
+</p>
+
+<h2>9.10 Imported Restaurant</h2>
+<p>
+    Using your latest Restaurant class, store it in a 
+    module. Make a separate file that imports Restaurant. Make a Restaurant 
+    instance, and call one of Restaurant's methods to show that the import 
+    statement is working properly.
+</p>
+
+<h2>9.11 Imported Admin</h2>
+<p>
+    Start with your work from Exercise 9.8 (Page 173). Store the classes User, 
+    Privileges, and Admin in one module. Create a separate file, make an Admin 
+    instance, and call show_privileges() to show that everything is working 
+    correctly.
+</p>
+
+<h2>9.12 Multiple Modules</h2>
+<p>
+    Store the User class in one module, and store the Privileges and Admin 
+    classes in a separate module. In a separate file, create an Admin instance 
+    and call show_privileges() to show that everything is still working correctly.
+</p>
+
+<h2>9.13 Dice</h2>
+<p>
+    Make a class Die with one attribute called sides, which has a default value of 6. 
+    Write a method called roll_die() that prints a random number between 1 and then numbers 
+    of sides the die has. Make a 6-sided die and roll it 10 times.<br>
+    Make a 10-sided die and a 20-sided die. Roll each die 10 times
+</p>
+
+<h2>9.14 Lottery</h2>
+<p>
+    Make a list or tuple containing a series of 10 numbers and 5 letters. Randomly select 
+    4 numbers or letters from the list and print a message saying that any ticket matching 
+    these 4 numbers or letters wins a prize.
+</p>
+
+<h2>9.15 Lottery Analysis</h2>
+<p>
+    You can use a loop to see how hard it might be to win the kind of lottery you just modeled. 
+    Make a list or tuple called my_ticket. Write a loop that keeps pulling numbers until your 
+    ticket win. Print a message reporting how many times the loop had to run to give you a 
+    winning ticket.
+</p>
+
+<h2>9.16 Python Module of the Week</h2>
+<p>
+    One excellent resource for exploring the Python standard library is a site called 
+    Python Module of the Week. Go to https://pymotw.com and looks at the table of contents. 
+    Find a module that looks interesting to you and read about it, perhaps starting with 
+    the random module. 
 </p>

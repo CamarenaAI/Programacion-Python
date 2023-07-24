@@ -1,19 +1,19 @@
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
-        self.name = restaurant_name
+        self.name = restaurant_name.title()
         self.cuisine = cuisine_type
 
     def describe_restaurant(self):
-        print(f"The {self.name} restaurant serves a {self.cuisine} cuisine")
+        print(f"{self.name} serves a {self.cuisine} cuisine")
 
     def open_restaurant(self):
         print(f"The restaurant is open. Come on in!")
 
-restaurant = Restaurant('Osteria Francescana', 'italian')
+restaurant = Restaurant('osteria francescana', 'italian')
 restaurant.describe_restaurant()
 
-restaurant = Restaurant('Pujol', 'mexican')
+restaurant = Restaurant('pujol', 'mexican')
 restaurant.describe_restaurant()
 
-restaurant = Restaurant('Arpège', 'french')
+restaurant = Restaurant('arpège', 'french')
 restaurant.describe_restaurant()

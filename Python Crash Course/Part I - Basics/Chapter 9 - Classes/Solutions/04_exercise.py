@@ -1,11 +1,11 @@
 class Restaurant:
     def __init__(self, restaurant_name, cuisine_type):
-        self.name = restaurant_name
+        self.name = restaurant_name.title()
         self.cuisine = cuisine_type
         self.number_served = 0
 
     def describe_restaurant(self):
-        print(f"The {self.name} restaurant serves a {self.cuisine} cuisine")
+        print(f"{self.name} serves a {self.cuisine} cuisine")
 
     def open_restaurant(self):
         print(f"The restaurant is open. Come on in!")
@@ -16,7 +16,7 @@ class Restaurant:
     def increment_number_served(self, increment_served):
         self.number_served += increment_served
 
-restaurant = Restaurant('Osteria Francescana', 'italian')
+restaurant = Restaurant('osteria francescana', 'italian')
 restaurant.describe_restaurant()
 
 print(f"\nNumber of customers served: {restaurant.number_served}")
