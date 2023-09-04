@@ -5,7 +5,6 @@ class Admin(User):
         super().__init__(first_name, last_name, username, email, location)
         self.privileges = Privileges()
 
-
 class Privileges:
     def __init__(self, privileges=[]):
         self.privileges = privileges
