@@ -1,0 +1,5 @@
+Python uses flow control structures like loops (for, while) and conditional structures (if, else) to control code execution.
+Python uses variables to store data.
+Python supports the definition and calling of functions to modularize and reuse code.
+Python uses libraries and modules to extend their capabilities.
+Python allows the use of comments to document the code.
