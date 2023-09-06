@@ -1,11 +1,11 @@
 from pathlib import Path
 
-print("- Reading in the entire file -")
+print("Reading in the entire file")
 path = Path("./Files/learning_python.txt")
 contents = path.read_text()
 print(contents)
 
-print("\n- Replace the word Python with the name of another language -")
+print("\nReplace the word Python with the name of another language")
 lines = contents.splitlines()
 for line in lines:
     line = line.replace('Python', 'C')
