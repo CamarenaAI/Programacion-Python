@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path('./Files/pi_million_digits.txt')
+path = Path('../Files/pi_million_digits.txt')
 contents = path.read_text()
 
 lines = contents.splitlines()

@@ -37,3 +37,16 @@
    Remove the temporary variable from each of the programs in this section, to 
    make them more concise.
 </p>
+
+<h2>10.4 Guest</h2>
+<p>
+    Write a program that prompts the user for their name. When they respond, write
+    their name to a file called guess.txt.
+</p>
+
+<h2>10.5 Guest Book</h2>
+<p>
+    Write a while loop that prompts users for their name. Collect all the names that 
+    are entered, and then write these names to a file called guest_book.txt. Make 
+    sure each entry appears on a new line in the file.
+</p>
