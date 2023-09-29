@@ -63,7 +63,7 @@
 
 <h2>10.7 Addition Calculator</h2>
 <p>
-    Wrap your code from Exercise 10.5 In a while loop so the user can continue entering 
+    Wrap your code from Exercise 10.6 In a while loop so the user can continue entering 
     numbers, even if they make a mistake and enter text instead of a number.
 </p>
 
