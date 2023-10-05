@@ -4,6 +4,7 @@ Esta carpeta contiene las soluciones que he desarrollado para los ejercicios del
 
 ## Estructura de la carpeta
 
+### Part I - Basics
 - **Chapter 1**: [Getting Started](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%201%20-%20Getting%20Started)
 - **Chapter 2**: [Variables and Simple Data Types](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types)
 - **Chapter 3**: [Introducing Lists](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%203%20-%20Introducing%20Lists)
@@ -15,6 +16,8 @@ Esta carpeta contiene las soluciones que he desarrollado para los ejercicios del
 - **Chapter 9**: [Classes](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%209%20-%20Classes)
 - **Chapter 10**: [Files and Exceptions]()
 - **Chapter 11**: [Testing Your Code]()
+
+### Part II - Projects
 - **Chapter 12**: [A Ship That Fires Bullets]()
 - **Chapter 13**: [Aliens!]()
 - **Chapter 14**: [Scoring]()
