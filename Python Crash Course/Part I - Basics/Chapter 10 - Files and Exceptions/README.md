@@ -104,3 +104,35 @@
     it will also count words such as 'then' and 'there'. Try counting 'the', with a space 
     in the string, and see how much lower your count is.
 </p>
+
+<h2>10.11 Favorite Number</h2>
+<p>
+    Write a program that prompts for the user's favortie number. Use json.dumps() to store
+    this number in a file. Write a separate program that reads in this value and prints 
+    the message "I know your favorite number! It's _____."
+</p>
+
+<h2>10.12 Favorite Number Remembered</h2>
+<p>
+    Combine the two programs you wrote in Exercise 10.11 into one gile. If the number is
+    already stored, report the favorite number to the user. If not, prompt for the user's 
+    favorite number and store it in a file. Run the program twice to see that it works.
+</p>
+
+<h2>10.13 User Dictionary</h2>
+<p>
+    The remember_me.py example only stores one piece of information, the username. Expand
+    this example by asking for two more pieces of information about the user, then store
+    all the information you collect in a dictionary. Write this dictionary to a file using
+    json.dumps(), and read it back using json.loads(). Print a summary showing exactly what
+    your program remembers about the user.
+</p>
+
+<h2>10.14 Verify User</h2>
+<p>
+    The final listing for remember_me.py assumes either that the user has already entered 
+    their username or that the program is running for the first time. We should modify it 
+    in case the current user is not the person who last used the program.<br>
+     Before pritting a welcome back message in great_user(), ask the user if this is the 
+    correct username. If it's not, call get_new_username() to get the correct username.
+</p>
