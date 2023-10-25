@@ -14,8 +14,8 @@ Esta carpeta contiene las soluciones que he desarrollado para los ejercicios del
 - **Chapter 7**: [User Input and While Loops](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%207%20-%20User%20Input%20and%20While%20Loops)
 - **Chapter 8**: [Functions](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%208%20-%20Functions)
 - **Chapter 9**: [Classes](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%209%20-%20Classes)
-- **Chapter 10**: [Files and Exceptions]()
-- **Chapter 11**: [Testing Your Code]()
+- **Chapter 10**: [Files and Exceptions](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%2010%20-%20Files%20and%20Exceptions)
+- **Chapter 11**: [Testing Your Code](https://github.com/CamarenaAI/Programacion-Python/tree/main/Python%20Crash%20Course/Part%20I%20-%20Basics/Chapter%2011%20-%20Testing%20Your%20Code)
 
 ### Part II - Projects
 - **Chapter 12**: [A Ship That Fires Bullets]()
