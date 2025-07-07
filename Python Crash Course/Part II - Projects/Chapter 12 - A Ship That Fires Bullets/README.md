@@ -34,9 +34,8 @@
 <h2>12.5 Keys</h2>
 <p>
     Make a Pygame file that creates an empty screen. In the event loop, 
-    print the __*event.key*__ attribute whenever a __pygame.KEYDOWN__ 
-    event is detected. Run the program and press various keys to see how 
-    Pygame responds.
+    print the event.key attribute whenever a pygame.KEYDOWN event is detected. 
+    Run the program and press various keys to see how Pygame responds.
 </p>
 
 <h2>12.6 Sideways Shooter</h2>
