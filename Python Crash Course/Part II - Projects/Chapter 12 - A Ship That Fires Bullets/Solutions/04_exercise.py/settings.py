@@ -1,10 +1,13 @@
 # Creatting a Settings Class
 class Settings:
-    """A class to store all settings for Alien Invasion."""
+    """A class to store all settings for Pygame."""
 
     def __init__(self):
         """Initialize the game's settings."""
         # Screen settings
         self.screen_width = 1200
         self.screen_height = 700
-        self.bg_color = (20, 23.53, 52.94)
+        self.bg_color = ("#004aad")
+
+        # Ship settings
+        self.ship_speed = 2.5
